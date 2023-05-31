@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Api Tramites</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <div >
+		<div>
+			<p th:text="'codigo: ' + ${consultaPatrones.codigo} " />
+			<p th:text="'descipcion: ' + ${consultaPatrones.descipcion} " />
+			<p th:text="'id: ' + ${consultaPatrones.id} " />
+			<p th:text="'nombre: ' + ${consultaPatrones.nombre} " />
+			<p th:text="'padre: ' + ${consultaPatrones.padre} " />
+			<p th:text="'uso: ' + ${consultaPatrones.uso} " />
+		</div>
+	</div>
+</body>
+</html>
